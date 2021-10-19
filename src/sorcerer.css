@@ -1,323 +1,323 @@
 /* マジシャンスキル */
 .sorcerer-skill-0 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-1-1);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-1-1);
 }
 
 .sorcerer-skill-1 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-1-1);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-1-1);
 }
 
 .sorcerer-skill-2 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-1-6);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-1-6);
 }
 
 .sorcerer-skill-2::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 100px;
-	left: -100px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 100px;
+  left: -100px;
+  top: 50%;
 }
 
 .sorcerer-skill-3 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-1-6);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-1-6);
 }
 
 .sorcerer-skill-4 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-1-4);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-1-4);
 }
 
 .sorcerer-skill-5 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-1-5);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-1-5);
 }
 
 .sorcerer-skill-6 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-1-3);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-1-3);
 }
 
 /* セージスキル */
 .sorcerer-skill-7 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-2-4);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-2-4);
 }
 
 .sorcerer-skill-8 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-2-3);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-2-3);
 }
 
 .sorcerer-skill-8::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 380px;
-	left: -380px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 380px;
+  left: -380px;
+  top: 50%;
 }
 
 .sorcerer-skill-9 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-2-2);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-2-2);
 }
 
 .sorcerer-skill-9::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 880px;
-	left: -880px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 880px;
+  left: -880px;
+  top: 50%;
 }
 
 .sorcerer-skill-10 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-2-4);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-2-4);
 }
 
 .sorcerer-skill-11 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-2-5);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-2-5);
 }
 
 .sorcerer-skill-11::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 180px;
-	left: -180px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 180px;
+  left: -180px;
+  top: 50%;
 }
 
 .sorcerer-skill-12 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-2-1);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-2-1);
 }
 
 .sorcerer-skill-12::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 280px;
-	left: -280px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 280px;
+  left: -280px;
+  top: 50%;
 }
 
 .sorcerer-skill-13 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-2-2);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-2-2);
 }
 
 .sorcerer-skill-14 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-2-3);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-2-3);
 }
 
 .sorcerer-skill-15 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-2-6);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-2-6);
 }
 
 .sorcerer-skill-15::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 280px;
-	left: -280px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 280px;
+  left: -280px;
+  top: 50%;
 }
 
 .sorcerer-skill-16 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-2-3);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-2-3);
 }
 
 /* プロフェッサースキル */
 .sorcerer-skill-17 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-3-7);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-3-7);
 }
 
 .sorcerer-skill-18 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-3-1);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-3-1);
 }
 
 .sorcerer-skill-18::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 440px;
-	left: -440px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 440px;
+  left: -440px;
+  top: 50%;
 }
 
 .sorcerer-skill-19 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-3-6);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-3-6);
 }
 
 .sorcerer-skill-20 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-3-4);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-3-4);
 }
 
 .sorcerer-skill-21 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-3-7);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-3-7);
 }
 
 .sorcerer-skill-22 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-3-8);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-3-8);
 }
 
 .sorcerer-skill-23 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-3-6);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-3-6);
 }
 
 .sorcerer-skill-23::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 300px;
-	left: -300px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 300px;
+  left: -300px;
+  top: 50%;
 }
 
 .sorcerer-skill-24 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-3-1);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-3-1);
 }
 
 .sorcerer-skill-24::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 80px;
-	left: -80px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 80px;
+  left: -80px;
+  top: 50%;
 }
 
 .sorcerer-skill-25 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-3-2);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-3-2);
 }
 
 .sorcerer-skill-26 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-3-3);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-3-3);
 }
 
 /* ソーサラースキル */
 .sorcerer-skill-27 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-4-1);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-4-1);
 }
 
 .sorcerer-skill-28 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-4-2);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-4-2);
 }
 
 .sorcerer-skill-29 {
-	top: var(--skill-grid-y-1);
-	left: var(--skill-grid-x-4-3);
+  top: var(--skill-grid-y-1);
+  left: var(--skill-grid-x-4-3);
 }
 
 .sorcerer-skill-29::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 180px;
-	left: -180px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 180px;
+  left: -180px;
+  top: 50%;
 }
 
 .sorcerer-skill-30 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-4-1);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-4-1);
 }
 
 .sorcerer-skill-30::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 240px;
-	left: -240px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 240px;
+  left: -240px;
+  top: 50%;
 }
 
 .sorcerer-skill-31 {
-	top: var(--skill-grid-y-2);
-	left: var(--skill-grid-x-4-5);
+  top: var(--skill-grid-y-2);
+  left: var(--skill-grid-x-4-5);
 }
 
 .sorcerer-skill-32 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-4-1);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-4-1);
 }
 
 .sorcerer-skill-33 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-4-1);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-4-1);
 }
 
 .sorcerer-skill-34 {
-	top: var(--skill-grid-y-4);
-	left: var(--skill-grid-x-4-5);
+  top: var(--skill-grid-y-4);
+  left: var(--skill-grid-x-4-5);
 }
 
 .sorcerer-skill-34::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 240px;
-	left: -240px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 240px;
+  left: -240px;
+  top: 50%;
 }
 
 .sorcerer-skill-35 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-4-4);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-4-4);
 }
 
 .sorcerer-skill-36 {
-	top: var(--skill-grid-y-5);
-	left: var(--skill-grid-x-4-6);
+  top: var(--skill-grid-y-5);
+  left: var(--skill-grid-x-4-6);
 }
 
 .sorcerer-skill-36::before {
-	position: absolute;
-	content: ' ';
+  position: absolute;
+  content: ' ';
 
-	border-top: 2px solid green;
-	width: 340px;
-	left: -340px;
-	top: 50%;
+  border-top: 2px solid green;
+  width: 340px;
+  left: -340px;
+  top: 50%;
 }
 
 .sorcerer-skill-37 {
-	top: var(--skill-grid-y-3);
-	left: var(--skill-grid-x-4-5);
+  top: var(--skill-grid-y-3);
+  left: var(--skill-grid-x-4-5);
 }

@@ -125,9 +125,9 @@ const Simulator = (props: ISimulatorProps) => {
 
   // 各スキルをクリックした時の処理
   const handleClick = (i: number) => {
-    const max_lv = (Job >= 3 && SKILLS[i].BreakthroughLv !== null) ? SKILLS[i].BreakthroughLv : SKILLS[i].MaxLv;
+    const max_lv = (Job >= 3 && SKILLS[i].BreakthroughLv != null) ? SKILLS[i].BreakthroughLv : SKILLS[i].MaxLv;
 
-    if( max_lv !== null && Lv[i] < max_lv ) {
+    if( max_lv != null && Lv[i] < max_lv ) {
       const lv = Lv.slice();
       lv[i] = Lv[i] + 1;
       setLv(lv);
@@ -297,7 +297,7 @@ const SkillList = (props: ISkillListProps) => {
     // 前提スキルが必要レベルを満たしていない場合
     const prev_id = SKILLS[i].PrevID;
     const require_lv = SKILLS[i].RequireLv;
-    if( prev_id !== null && require_lv !== null ) {
+    if( prev_id != null && require_lv != null ) {
       if( props.lv[prev_id] < require_lv ) {
         click_disable = true;
       }
@@ -314,7 +314,7 @@ const SkillList = (props: ISkillListProps) => {
     }
 
     // 最大Lvを計算する
-    const max_lv = (props.job >= 3 && SKILLS[i].BreakthroughLv !== null) ? SKILLS[i].BreakthroughLv as number : SKILLS[i].MaxLv;
+    const max_lv = (props.job >= 3 && SKILLS[i].BreakthroughLv != null) ? SKILLS[i].BreakthroughLv as number : SKILLS[i].MaxLv;
 
     // 最後までスキルを取り切ったか
     const finished = (props.current_lv === JOBS[JOBS.length-1].MaxLv);

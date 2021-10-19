@@ -1,5 +1,5 @@
 {
-  "name": "sorcerer_ts",
+  "name": "sorcerer",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -41,7 +41,6 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
