@@ -1,6 +1,9 @@
+// ========================================
+// いろいろimportする
+//
 // Reactコンポーネント
 import React, { useState, useMemo, useCallback } from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 // モーダルウィンドウを出すヤツ
 import ReactModal from 'react-modal';
@@ -21,7 +24,7 @@ import './common.css';
 import './sorcerer.css';
 
 // スキル, ジョブ設定の読み込み
-import { PREFIX, SKILLS, JOBS } from './sorcerer_data.js';
+import { PREFIX, SKILLS, JOBS } from './sorcerer_data';
 
 // Jobごとのアイコンを読み込む
 import JobIcon0 from './2-1_magician.png';
@@ -32,7 +35,7 @@ import JobIcon3 from './2-7_sorcerer.png';
 
 // ========================================
 // Interface
-
+//
 interface ISimulatorProps {}
 
 interface ISkillListProps {
@@ -75,7 +78,7 @@ interface ISkillProps {
 
 // ========================================
 // 関数
-
+//
 // lv配列を圧縮してBase64にする
 function encodeJobLv(lv: number[]): string {
   const lv2text = lv.join(',');
@@ -105,7 +108,7 @@ function decodeJobLv(query: string): number[] {
 
 // ========================================
 // コンポーネント
-
+//
 const Simulator = (props: ISimulatorProps) => {
   // 初期化
   // URLからクエリーを読み込んでデコードする
@@ -387,12 +390,26 @@ const Skill = (props: ISkillProps) => {
 
 // ========================================
 // 描画
-
+//
 ReactModal.setAppElement('#root');
 
+const container = document.getElementById('root');
+if( container ) {
+  const root = createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <Simulator />
+    </React.StrictMode>,
+  );
+} else {
+  console.error('Failed to find the root element.');
+}
+
+/*
 ReactDOM.render(
   <React.StrictMode>
     <Simulator />
   </React.StrictMode>,
   document.getElementById('root')
 );
+*/
