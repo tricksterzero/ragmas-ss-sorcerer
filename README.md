@@ -1,5 +1,5 @@
 # これは何？
-[ラグナロクマスターズ](https://ragnarokm.gungho.jp/)のスキル振りをシミュレートするヤツです。その中でもソーサラー用になります。Reactの習作として作ったのでいろいろグダグダな書き方になっています。リファクタリングする前の状態として公開してみます。
+[ラグナロクマスターズ](https://ragnarokm.gungho.jp/)のスキル振りをシミュレートするヤツです。その中でもソーサラー用になります。Reactの習作として作ったのでいろいろグダグダな書き方になっています。リファクタリングする前の状態ですが公開してみます。
 
 ## メモ
 ### アイコンの著作権
@@ -8,7 +8,7 @@
 ### Webpackの設定
 上書きされがちなファイルなのでメモとして残しておきます。
 
-```JavaScript /node_modules/react-scripts/config/webpack.config.js
+```JavaScript:/node_modules/react-scripts/config/webpack.config.js
     resolve: {
       fallback: {
         "assert": require.resolve("assert"),
@@ -16,5 +16,6 @@
         "stream": require.resolve("stream-browserify"),
         "zlib": require.resolve("browserify-zlib"),
       },
-	}
+	  }
+
 ```
